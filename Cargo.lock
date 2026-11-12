@@ -4567,6 +4567,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "pdfcraft-mobile"
+version = "0.21.1"
+dependencies = [
+ "pdfcraft-engine",
+ "pdfcraft-render",
+]
+
+[[package]]
 name = "pdfcraft-model"
 version = "0.21.1"
 dependencies = [

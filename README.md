@@ -17,8 +17,11 @@
 <p align="center">
   <b>The PDF workbench; an open-source, modern PDF reader and editor, built in pure Rust.</b><br>
   Read, organize, combine, split and secure PDFs in a fast, native app, written in Rust from the ground up.<br>
-  macOS · Windows · Linux · FreeBSD · the web
+  macOS · Windows · Linux · FreeBSD · the web · Android · iOS
 </p>
+
+The [PdfCraft Mobile](mobile/README.md) Flutter client uses the shared Rust engine through a
+small native ABI. It is offline-first and has no account, telemetry, or cloud upload path.
 
 <p align="center">
   <img alt="License: MIT OR Apache-2.0" src="https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-b70228?style=flat-square">
